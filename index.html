@@ -33,8 +33,8 @@
               function unitySendMessage(params) {
                   unityInstance.SendMessage("GameSetting", "SetText", "AAA");
               }
+              unitySendMessage(params);
           </script>
-          <button onclick="unitySendMessage()">１を足す</button>
           <div id="unity-warning"> </div>
           <div id="unity-footer">
               <div id="unity-webgl-logo"></div>
